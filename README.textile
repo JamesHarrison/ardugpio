@@ -1,0 +1,21 @@
+h1. ArduGPIO
+
+ArduGPIO is a simple Arduino codebase to support development of General Purpose Input/Output applications, primarily for users interfacing with broadcast equipment.
+
+h2. Features
+
+* Set pin modes (input/output)
+* Set pin high/low
+* Query current pin status
+* Query analog pin value
+* Pin changes broadcast upon edge detected/significant analog change
+
+h2. Interfacing Hardware to Arduinos
+
+<TODO>
+
+h2. Still to do
+
+* Debounce pin change broadcasts
+* Setting PWM outputs
+* Easier configuration between Arduino boards (def. config is good for Uno/Duem/Dicem)
